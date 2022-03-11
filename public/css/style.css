@@ -1,5 +1,6 @@
 body{
     background-color:coral;
+    text-align: center;
 }
 
 .site-head h2{
@@ -141,3 +142,90 @@ text-transform: uppercase;
         .card{
             margin: 5px;
         }
+
+#form  {
+    display: block;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 20px;
+      }
+      #form  #form-on1  {
+        display: block;
+        flex-direction: column;
+        max-width: 300px;
+        margin:20px;
+          }
+          #form  #form-on2  {
+            display: block;
+            flex-direction: column;
+            max-width: 300px;
+            margin:20px;
+              }
+      #form #form-on1 input {
+        margin-top:10px ;
+    padding: 5px 10px;
+      }
+      #form #form-on2  input {
+        margin-top:10px ;
+    padding: 5px 10px;
+    background-color: brown;
+      }
+     
+      #form #form-on2  label {
+        margin-top:5px ;
+      }
+      #form #form-on2  button {
+        display:flex;
+        flex-direction: row;
+    background-color: aqua;
+      }
+     
+
+
+      #form2  {
+        display: block;
+        flex-direction: column;
+        max-width: 300px;
+        margin: 20px;
+          }
+          #form2  #form2-on1  {
+            display: block;
+            flex-direction: column;
+            max-width: 300px;
+            margin:20px;
+              }
+              #form2 #form2-on2  {
+                display: block;
+                flex-direction: column;
+                max-width: 300px;
+                margin:20px;
+                  }
+          #form2 #form2-on1 input {
+            margin-top:10px ;
+        padding: 5px 10px;
+          }
+          #form2 #form2-on2  input {
+            margin-top:10px ;
+        padding: 5px 10px;
+        background-color: brown;
+          }
+         
+          #form2 #form2-on2  label {
+            margin-top:5px ;
+          }
+          #form2 #form2-on1 label {
+            margin-top:5px ;
+          }
+          #form2 #form2-on1 button {
+            display:flex;
+            flex-direction: row;
+        background-color: aqua;
+          }
+          #form2 #form2-on2  button {
+            display:flex;
+            flex-direction: row;
+        background-color: aqua;
+          }
+
+         
+    
